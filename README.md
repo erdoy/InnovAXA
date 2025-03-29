@@ -11,13 +11,12 @@ Es un producto único porque no existe ningún servicio que aune todos los datos
 ## **1. Desarrollo de la Aplicación**  
 El desarrollo se divide en **frontend, backend, infraestructura en la nube y seguridad**.  
 
-### **1.1. Desarrollo Frontend (App Móvil)**  
+### **1.1. Desarrollo Frontend (App Móvil)** 
 📌 **Tecnologías**: React Native / Flutter (para iOS y Android)  
-📌 **Costes estimados**:  
-- **Diseño UX/UI**: $5,000 - $10,000  
-- **Desarrollo Frontend** (2-3 desarrolladores, 4-6 meses): $30,000 - $60,000  
-- **Pruebas y optimización**: $5,000 - $10,000  
-**Subtotal: $40,000 - $80,000**  
+📌 **Costes estimados**:   
+- **Desarrollo Frontend** (2-3 desarrolladores, 4-6 meses): $15,000 - $30,000  
+- **Pruebas y optimización**: $2,500 - $5,000  
+**Subtotal: $20,000 - $35,000**  
 
 ### **1.2. Desarrollo Backend**  
 📌 **Tecnologías**: Node.js, Python (Django/Flask) con integración de IA y APIs biométricas  
@@ -68,6 +67,7 @@ El desarrollo se divide en **frontend, backend, infraestructura en la nube y seg
 ---
 
 ## **4. Marketing y Adquisición de Usuarios**  
+
 📌 **Estrategia**: Redes sociales, influencers, publicidad en apps de salud  
 📌 **Costes estimados**:  
 - **Lanzamiento inicial**: $15,000 - $30,000  
@@ -81,12 +81,12 @@ El desarrollo se divide en **frontend, backend, infraestructura en la nube y seg
 
 | **Área** | **Costo Estimado (USD)** |
 |----------|------------------|
-| Desarrollo Frontend | $40,000 - $80,000 |
+| Desarrollo Frontend | $20,000 - $35,000 |
 | Desarrollo Backend | $65,000 - $120,000 |
 | Infraestructura y Servidores (anual) | $18,000 - $43,000 |
 | Seguridad y Cumplimiento | $30,000 - $65,000 |
 | Inteligencia Artificial | $55,000 - $100,000 |
-| Servicio de Atención al Cliente (anual) | $442,000 - $740,000 |
+| Servicio de Atención al Cliente Adicional (anual) | $442,000 - $740,000 |
 | Marketing | $45,000 - $100,000 |
 | **Total Desarrollo Inicial** | **$253,000 - $505,000** |
 | **Total Operación Anual** | **$460,000 - $783,000** |
