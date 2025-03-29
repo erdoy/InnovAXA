@@ -1,6 +1,6 @@
 # InnovAXA
 
-Presentación WELLIA: https://view.genially.com/67cb42b933bc3b73aedf8841/presentation-wellia
+Presentación WE-R AXA: [https://view.genially.com/67cb42b933bc3b73aedf8841/presentation-wellia](https://www.canva.com/design/DAGjGioNGyw/by3Gdje_DmPSx2udydEiTw/edit?utm_content=DAGjGioNGyw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 # **Estudio de mercado**
 Es un producto único porque no existe ningún servicio que aune todos los datos biométricos de las personas de manera sencilla e individualizada y realize un informe de salud global que se facilite al seguro/servicio de salud
