@@ -2,10 +2,8 @@
 
 Presentación WELLIA: https://view.genially.com/67cb42b933bc3b73aedf8841/presentation-wellia
 
-Estudio de mercado: Es un producto único porque no existe ningún servicio que aune todos los datos biométricos de las personas de manera sencilla e individualizada y realize un informe de salud global que se facilite al seguro/servicio de salud
-
-Aquí tienes un informe detallado de los costos aproximados para desarrollar y operar tu aplicación de predicción de ataques de pánico basada en datos biométricos.  
-
+# **Estudio de mercado** 
+Es un producto único porque no existe ningún servicio que aune todos los datos biométricos de las personas de manera sencilla e individualizada y realize un informe de salud global que se facilite al seguro/servicio de salud
 ---
 
 # **Informe de Costes para el Desarrollo y Operación de la Aplicación**  
