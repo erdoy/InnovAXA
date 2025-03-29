@@ -1,0 +1,147 @@
+/* Contenedor principal de la sección */
+.pinned-health-data {
+  background-color: #f8f8f8; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+/* Encabezado */
+.pinned-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pinned-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+.pinned-edit-button {
+  background: none;
+  border: none;
+  color: #007aff; /* Azul iOS */
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Tarjetas (Frecuencia Cardíaca, Pasos) */
+.pinned-card {
+  background-color: #fff; /* Fondo claro para la tarjeta */
+  border-radius: 12px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Encabezado de cada tarjeta */
+.pinned-card-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.card-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  color: #fff;
+}
+
+/* Íconos con color específico */
+.card-icon.heart {
+  background-color: #ff3b30; /* Rojo para Frecuencia Cardíaca */
+}
+
+.card-icon.steps {
+  background-color: #ff9500; /* Naranja para Pasos */
+}
+
+.card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.card-time {
+  margin-left: auto; /* Empuja la hora a la derecha */
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Contenido principal de la tarjeta */
+.pinned-card-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Valor grande (ej. 74 LPM, 2316 pasos) */
+.card-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  color: #333;
+}
+
+/* Gráfico de Frecuencia Cardíaca (líneas aleatorias) */
+.heart-rate-chart {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+}
+
+/* Cada línea vertical */
+.hr-line {
+  position: absolute;
+  width: 2px;
+  background-color: #ff3b30;
+  border-radius: 1px;
+}
+
+/* Gráfico de Pasos (barras estáticas) */
+.steps-chart {
+  display: flex;
+  gap: 2px;
+  margin-left: auto;
+  align-items: flex-end;
+  width: 60px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.step-bar {
+  width: 5px;
+  background-color: #ff9500;
+  border-radius: 2px;
+}
+
+/* Botón al final */
+.pinned-footer-button {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pinned-footer-button button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.pinned-footer-button button:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,125 @@
+/* Sección principal en modo claro */
+.health-section {
+  background-color: #f8f8f8; /* Fondo claro */
+  padding: 1rem;
+  color: #333; /* Texto oscuro */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+/* Título principal (en color oscuro) */
+.health-title {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Tarjeta grande con anillos + texto */
+.activity-card {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+/* Contenedor para el SVG */
+.ring-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SVG que contiene los arcos */
+.multi-ring-svg {
+  display: block;
+  transform: rotate(-90deg); /* para iniciar en la parte superior */
+}
+
+/* Arcos animados */
+.multi-ring-fg {
+  transition: stroke-dashoffset 1.2s ease-out;
+}
+
+.multi-ring-fg.animate {
+  stroke-dashoffset: var(--offset);
+}
+
+/* Texto (Movimiento, Ejercicio, De pie) a la derecha */
+.activity-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.stat-label {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #333;
+}
+
+.stat-value {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #666; /* Texto secundario */
+}
+
+/* Contenedor de tarjetas pequeñas: Pasos y Distancia */
+.health-small-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Cada tarjeta pequeña */
+.health-card--small {
+  flex: 1;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 12px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.small-card-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Barra de progreso */
+.bar-chart {
+  position: relative;
+  width: 100%;
+  height: 16px;
+  background-color: #eaeaea; /* Barra en gris claro */
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.bar-fill {
+  background-color: #7d7cff; /* Color del relleno */
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+  transition: width 1.2s ease-out;
+}
+
+.bar-fill.animate {
+  width: var(--width);
+}
+
+.bar-label {
+  font-size: 0.8rem;
+  color: #333;
+}

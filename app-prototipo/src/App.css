@@ -1,0 +1,205 @@
+/* General */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal de Home */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: #f8f8f8;
+  padding-bottom: 60px; /* espacio para el menú fijo */
+  min-height: 100vh;    /* alto mínimo */
+  overflow-y: auto;
+}
+
+/* ===================================== */
+/* Banner Section                        */
+/* ===================================== */
+
+.banner-section {
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.banner-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.banner-subtitle {
+  margin: 0.5rem 0 0;
+  color: #AF52DE;
+  font-size: 0.9rem;
+}
+
+/* ===================================== */
+/* Health Section (fondo claro)          */
+/* ===================================== */
+
+.health-section {
+  background-color: #fff; /* tema claro */
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.health-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.health-card {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #333;
+}
+
+/* ===================================== */
+/* Policies Section                      */
+/* ===================================== */
+
+.policies-section {
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+
+.policies-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.policies-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.view-all-button {
+  background: none;
+  border: none;
+  color: #007AFF;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.policies-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.policy-card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem;
+}
+
+.policy-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Ícono en blanco */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.policy-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.policy-count {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* ===================================== */
+/* Favorites Section                     */
+/* ===================================== */
+
+.favorites-section {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.favorites-section h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* ===================================== */
+/* Activity Detail Page                  */
+/* ===================================== */
+
+.activity-detail-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: #fff;
+  padding-bottom: 60px; /* espacio para menú fijo */
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* ===================================== */
+/* Bottom Navigation (fijo)              */
+/* ===================================== */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 0.5rem 0;
+  z-index: 999;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-icon i {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.nav-label {
+  font-size: 0.75rem;
+}
