@@ -83,13 +83,13 @@ El desarrollo se divide en **frontend, backend, infraestructura en la nube y seg
 |----------|------------------|
 | Desarrollo Frontend | $20,000 - $35,000 |
 | Desarrollo Backend | $65,000 - $120,000 |
-| Infraestructura y Servidores (anual) | $18,000 - $43,000 |
+| Infraestructura y Servidores (anual) (solo integración) |	$10,000 - $25,000 |
 | Seguridad y Cumplimiento | $30,000 - $65,000 |
 | Inteligencia Artificial | $55,000 - $100,000 |
-| Servicio de Atención al Cliente Adicional (anual) | $442,000 - $740,000 |
+| Servicio de Atención al Cliente Adicional (anual) | $10,000 - $30,000 |
 | Marketing | $45,000 - $100,000 |
-| **Total Desarrollo Inicial** | **$253,000 - $505,000** |
-| **Total Operación Anual** | **$460,000 - $783,000** |
+| **Total Desarrollo Inicial** | **$250,000 - $480,000** |
+| **Total Operación Anual** | **$65,000 - $125,000** |
 
 ---
 
